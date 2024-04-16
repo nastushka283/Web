@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Cool Company</title> 
+    <link rel="stylesheet" href="css/main.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <script src="js/script.js"></script> 
+</head> 
+<body> 
+    <header> 
+        <div class="container"> 
+            <img src="img/logo.png" alt="Логотип" class="logo"> 
+            <div class="wrapper"> 
+                <div class="offer"> 
+                    <h2 class="offer__title">С помощью нас<br> вы сможете создать то, о чем</h2> 
+                    <span class="title__span">желаете!</span> 
+                    <p class="offer__text">Наши возможности + опыт позволят Вам достичь огромного успеха. 
+                        Мы верим в вас! И знаем это на все 100%. Вас не остановить!</p> 
+                    <a href="#" class="offer__button">Узнать больше...</a> 
+                </div> 
+                <img src="img/header-img.png" alt="Телефон" class="header__image"> 
+            </div> 
+        </div> 
+    </header> 
+ 
+    <main> 
+        <div class="container"> 
+            <h2 class="main__title">Что Вам необходимо?</h2> 
+            <div class="wrapper"> 
+                <div class="blocks"> 
+                    <img src="img/f3.png" alt="Картинка" class="blocks__images"> 
+                    <h3>Первый блок</h3> 
+                    <p class="images__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> 
+                </div> 
+                <div class="blocks"> 
+                    <img src="img/f4.png" alt="Картинка" class="blocks__images"> 
+                    <h3>Второй блок</h3> 
+                    <p class="images__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit?</p> 
+                </div> 
+                <div class="blocks"> 
+                    <img src="img/f5.png" alt="Картинка" class="blocks__images"> 
+                    <h3>Третий блок</h3> 
+                    <p class="images__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit!</p> 
+                </div> 
+            </div> 
+        </div> 
+    </main> 
+ 
+ 
+    <section class="product"> 
+        <div class="container"> 
+            <h2 class="section__title">Форма заказа продукта или услуги</h2> 
+            <form name="second" action="#" method="post" enctype="multipart/form-data"> 
+                <div class="form-group"> 
+                    <label for="name">Ваше имя:</label> 
+                    <input type="text" id="name"> 
+                    <div class="error-message"></div> <!-- Элемент для сообщения об ошибке --> 
+                </div> 
+                <div class="form-group"> 
+                    <label for="phone">Ваш телефон:</label> 
+                    <input type="tel" id="phone"> 
+                    <div class="error-message"></div> 
+                </div> 
+                <div class="form-group"> 
+                    <label for="adres">Адрес доставки:</label> 
+                    <input type="text" id="adres"> 
+                    <div class="error-message"></div> 
+                </div> 
+                <div class="form-group"> 
+                    <label for="datetime">Дата и время:</label> 
+                    <input type="datetime-local" id="datetime"> 
+                    <div class="error-message"></div> 
+                </div> 
+                <div class="form-group"> 
+                    <label for="col">Количество:</label> 
+                    <input type="number" id="col"> 
+                    <div class="error-message"></div> 
+                </div> 
+                <input type="submit" class="send" value="Отправить заказ!"> 
+            </form> 
+        </div> 
+    </section> 
+ 
+ 
+  
+    <section class="call"> 
+        <div class="container"> 
+            <h2 class="section__title">Форма заказа обратного звонка</h2>
+            <form name="first" action="#" method="post" enctype="multipart/form-data"> 
+                <input type="text" placeholder="Имя" required> 
+                <input type="email" placeholder="Введите свой E-mail" required> 
+                <input type="tel" placeholder="Телефон" required> 
+                <input type="text" placeholder="Какая тема Вас интересует?" required> 
+                <button type="button">Отправить вопрос!</button> 
+            </form> 
+        </div> 
+    </section> 
+ 
+    <footer> 
+        <p class="copyright">© Все на этом сайте защищено</p> 
+    </footer> 
+</body> 
+</html>
